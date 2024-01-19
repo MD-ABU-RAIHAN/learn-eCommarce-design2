@@ -58,3 +58,9 @@ li{
     width: 7rem;
     margin-top: -7.5rem;
 }
+.btn-dark:hover{
+    border: 2px solid;
+    color: var(--bs-main-color);
+    background-color: var(--secoundary-color);
+    transition: 1s;
+}
