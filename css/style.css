@@ -8,7 +8,7 @@
 
 }
 :root{
-    --bs-dark-color:#1a1d20;
+    --bs-dark-color:#000000;
     --bs-dark-primary:#E4E4E4;
     --bs-main-color:#fff;
     --bs-primary-color:#fdc200;
@@ -90,3 +90,30 @@ li{
 .c-body h5{
     	margin-top: 2rem;
 }
+
+.categorie-title h5{
+    margin-top: 4rem;
+    color: var(--bs-dark-color);
+}
+.categorie-title button{
+    height: 0.7rem;
+    width: 5rem;
+    border: none;
+    border-radius: 2rem;
+    border-color: var(--bs-primary-color);
+    background:  #fdc200;
+}
+.cata-3{
+    width: 100%;
+    margin: 30px;
+    padding: 50px;
+    box-shadow: 1rem 1rem 20rem 1rem var(--bs-dark-primary);
+}
+.cata-bag{
+border-bottom-left-radius: 2rem;
+border-top-right-radius: 1rem;
+}
+.cata-but, .cata-sh{
+    border-bottom-right-radius: 2rem;
+    border-top-left-radius: 1rem;
+    }
