@@ -9,9 +9,9 @@
 }
 :root{
     --bs-dark-color:#1a1d20;
-    --bs-dark-primary:#1c1c1c;
+    --bs-dark-primary:#E4E4E4;
     --bs-main-color:#fff;
-    --bs-primary-color:#c6c6c6;
+    --bs-primary-color:#fdc200;
     --secoundary-color:#29a9fd;
 }
 
@@ -63,4 +63,30 @@ li{
     color: var(--bs-main-color);
     background-color: var(--secoundary-color);
     transition: 1s;
+}
+.catagari{
+    margin-top: 3rem;
+}
+.see-all{
+
+    color: #fdc200;
+}
+
+
+.c-card{
+    align-items: center;
+    border-radius: 1.5rem;
+    border-color: white;
+    box-shadow: 1rem 1rem 15rem 1rem var(--bs-dark-primary);
+}
+.c-card img{
+    padding: 2.5rem;
+}
+
+.c-body a button{
+    margin-bottom: 2rem;
+
+}
+.c-body h5{
+    	margin-top: 2rem;
 }
